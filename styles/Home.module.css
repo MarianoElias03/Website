@@ -130,12 +130,21 @@
   }
   @media screen and (max-width: 769px) {
     .waves {
+      background-color: transparent;
       width: 100vw;
-      height: 50vh;
-      margin-top: -55vh;
+      height: 20vh;
+      margin-top: -40vh;
+      margin-bottom: 10vh;
+      padding-top: -80vh;
+      padding-bottom: -200vh;
       transform: scale(3);
     }
+    .waves img {
+      
+      
+    }
     .waves2 {
+      background-color: transparent;
       width: 100vw;
       height: 15vh;
       margin-top: -15vh;
@@ -584,7 +593,7 @@
       margin-top: -10vh;
       padding-top: 10vh;
       margin-bottom: -20vh;
-      background-color: rgba(0, 0, 0, 0);
+      background-color: transparent;
       transform: scale(2);
     }
   }

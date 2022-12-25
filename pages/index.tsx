@@ -91,13 +91,14 @@ export default function Home() {
             </p>
           </button>
           </a>
-            
+
+          <a href='https://www.rugbystats.net/' target='_blank' rel='noreferrer'>
           <button className={styles.button}>
             <h3>NRL Statistics App</h3>
             <p>On this website you will be able to get the stats of every team and player throughout 2022 and 
               see a statistical representation</p>
           </button>
-
+          </a>
           <button className={styles.button}>
             <h3>More Coming Soon....</h3>
             <p> As a devleoper I am always looking for more projects to pursue, from games to ecommerce, there is nothing I
