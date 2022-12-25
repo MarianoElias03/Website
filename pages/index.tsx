@@ -40,9 +40,9 @@ export default function Home() {
             <h1 className={styles.title}><a href="#">ML</a></h1>
             <input className={styles.checkbox} type="checkbox" name="" id="nav-check" />
             <label htmlFor="nav-check" className={styles.burger}>
-              <a></a>
-              <a></a>
-              <a></a>
+              <a>-</a>
+              <a>-</a>
+              <a>-</a>
             </label>
             <div className={styles.navlinks}>
               <ul>
