@@ -212,6 +212,7 @@
       margin-left: auto;
       margin-right: auto;
       padding-bottom: 10vh;
+      background-color: white;
     }
     .contactme .submitformcont .textbtn, .contactme .submitformcont .fullnamebtn, .contactme .submitformcont .emailbtn {
       margin: 1rem 75vw 0 0;
