@@ -59,7 +59,6 @@
     }
     .nav .navbar .burger span, .nav .navbar .burger :nth-child(2), .nav .navbar .burger :nth-child(3) {
       background-color: white;
-
       border-radius: 10px;
       height: 20%;
       margin: 6%;
@@ -205,12 +204,14 @@
       overflow-x: hidden;
       margin: 0;
       padding-top: 10%;
+      background-color: white;
     }
     .contactme .submitformcont {
       max-width: 90%;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      padding-bottom: 10vh;
     }
     .contactme .submitformcont .textbtn, .contactme .submitformcont .fullnamebtn, .contactme .submitformcont .emailbtn {
       margin: 1rem 75vw 0 0;
