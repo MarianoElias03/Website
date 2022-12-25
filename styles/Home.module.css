@@ -158,6 +158,10 @@
       min-height: 30vh;
       width: 90%;
     }
+    .projects .grid .button:active{
+      transition: all 0.5s;
+      background-color: #10002B;
+    }
   }
   @media screen and (max-width: 769px) {
     .aboutMe {
@@ -642,11 +646,12 @@
       min-height: 30vh;
       max-width: 500px;
     }
-  }
-  .projects .grid .button:hover {
+    .projects .grid .button:hover {
     transition: all 0.5s;
     background-color: #10002B;
   }
+  }
+  
   
   
   .aboutMe {
