@@ -111,7 +111,7 @@ export default function Home() {
         <div className={styles.mebox}>
           <div className={styles.bio}>
           <h1 id='aboutme'>About Me</h1>
-          <p>I am a self taught developer, born in Brisbane, Australia with a Latino Background. I have always loved software and have prided myself on being a problem solver. 
+          <p>I am a self taught developer, born in Brisbane, Australia with a Latin-American Background. I have always loved software and have prided myself on being a problem solver. 
             I study development everyday staying truly dedicated to it, whilst currently working as a collections agent. 
             I truly am an asset to any team I am apart of, I look forward to your contact.
           </p> 
