@@ -20,20 +20,24 @@
       align-items: flex-start;
     }
     .nav .navbar .title, .nav .navbar .burger {
+      display: inline-flex;
       position: absolute;
-      padding: 0 1% 13px 2%;
-      margin: 0% 0 0ex 0;
+      padding: 20px 1% 13px 2%;
+      margin: 2% 0 0 0;
     }
     .nav .navbar .title {
-      margin-left: 10px;
+      margin-left: -5px;
+      padding-bottom: 15px;
       justify-content: center;
       align-items: bottom;
       flex-direction: column;
       left: 0;
       z-index: 15;
-      font-size: 4rem;
+      height: 100%;
+      font-size: 10vh;
+      margin-top: -1%;
     }
-    .nav .navbar .title:focus {
+    .nav .navbar .title :hover {
       background-color: white;
     }
     .nav .navbar .title a {
@@ -42,22 +46,23 @@
     }
     .nav .navbar .burger {
       padding: 10px 1% 10px 2%;
-      margin: -1% 0 0 0;
-      justify-content: center;
+      margin-top: 1%;
       align-items: center;
       flex-direction: column;
       right: 0;
+      position: absolute;
       float: right;
       width: 17%;
-      height: 110%;
-      z-index: 120;
+      height: 100%;
+      z-index: 10;
       cursor: pointer;
     }
-    .nav .navbar .burger a {
+    .nav .navbar .burger span, .nav .navbar .burger :nth-child(2), .nav .navbar .burger :nth-child(3) {
       background-color: white;
+
       border-radius: 10px;
-      height: 100%;
-      margin: 7%;
+      height: 20%;
+      margin: 6%;
       width: 100%;
     }
     .nav .navlinks {
