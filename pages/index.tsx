@@ -83,7 +83,7 @@ export default function Home() {
       <div className={styles.projects} >
         <h1 id='projects'>Projects</h1>
         <div className={styles.grid} >
-          <a href='https://www.wriality.com/' target='_blank' rel='noreferrer'>
+          <a href='https://wriality.com/' target='_blank' rel='noreferrer'>
           <button className={styles.button}>
             <h3>Personal Blog</h3>
             <p>This will take you to Wriality, where you can access my personal blog, as well as other posts made by Chat-GPT3.
