@@ -83,11 +83,10 @@ export default function Home() {
       <div className={styles.projects} >
         <h1 id='projects'>Projects</h1>
         <div className={styles.grid} >
-          <a href='https://www.digi-comp.com/' target='_blank' rel='noreferrer'>
+          <a href='https://www.wriality.com/' target='_blank' rel='noreferrer'>
           <button className={styles.button}>
-            <h3>eCommerce Webapp</h3>
-            <p>This will take you to Digi-Comp, where you can buy 
-            consumer electronics or DIY components to build your dreams.   
+            <h3>Personal Blog</h3>
+            <p>This will take you to Wriality, where you can access my personal blog, as well as other posts made by Chat-GPT3.
             </p>
           </button>
           </a>
