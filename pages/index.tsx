@@ -91,7 +91,7 @@ export default function Home() {
           </button>
           </a>
 
-          <a href='https://www.rugbystats.net/' target='_blank' rel='noreferrer'>
+          <a href='https://rugbystats.net/' target='_blank' rel='noreferrer'>
           <button className={styles.button}>
             <h3>NRL Statistics App</h3>
             <p>On this website you will be able to get the stats of every team and player throughout 2022 and 
