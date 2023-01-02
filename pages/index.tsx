@@ -259,6 +259,8 @@ export default function Home() {
         </div>
       </div>
     </main>
+    <footer>
+    </footer>    
     </div>
     )
   }
