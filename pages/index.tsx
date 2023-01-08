@@ -184,6 +184,15 @@ export default function Home() {
                     Python
                   </span>
                 </p>
+              <p>
+                  <span>    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />
+                  </span>
+                  <br/>
+                  <span className={styles.undertext}>
+                    GraphQL
+                  </span>
+              </p>
               </div>
             </span>
             <span className={styles.skills}>
@@ -201,7 +210,7 @@ export default function Home() {
                   </p>
                   <p>
                     <span>      
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                      <img src="/github-svgrepo-com.svg" />
                     </span>
                     <br/>
                     <span>
@@ -215,6 +224,15 @@ export default function Home() {
                     <br/>
                     <span>
                       Figma
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                    </span>
+                    <br/>
+                    <span>
+                      Bootstrap
                     </span>
                   </p>
                 </div>
