@@ -91,11 +91,12 @@ export default function Home() {
           </button>
           </a>
 
-          <a href='https://rugbystats.net/' target='_blank' rel='noreferrer'>
+          <a href='https://www.windowatcher.com/' target='_blank' rel='noreferrer'>
           <button className={styles.button}>
-            <h3>NRL Statistics App</h3>
-            <p>On this website you will be able to get the stats of every team and player throughout 2022 and 
-              see a statistical representation</p>
+            <h3>Window watcher app</h3>
+            <p>This website will gather your location data to tell you the suburb that you are in with the weather currently using the openweathermap API and
+              give you some articles on the latest news with the Guardian API
+            </p>
           </button>
           </a>
           <button className={styles.button}>
