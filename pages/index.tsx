@@ -35,7 +35,7 @@ export default function Home() {
             <h1 className="fw-bold text-white bg-transparent">Hi I&apos;m Mariano Lovo</h1>
             <p className="lead fw-medium text-white bg-transparent">I am a web developer, I create freelance websites for commercial services, ecommerce platforms and media managers!</p>
             <p className='bg-transparent'>
-              <a href="#" className="btn border text-white my-2">Request a site!</a>
+              <a href="#contact" className="btn border text-white my-2">Request a site!</a>
             </p>
           </div>
         </div>
