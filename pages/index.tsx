@@ -158,7 +158,7 @@ export default function Home() {
                   <br/>
                   <br/>
                   <label className="mb-1" htmlFor="msg">Message:</label>
-                  <textarea className="form-control col-8"/>
+                  <textarea className="form-control col-8" id="msg" name="message"  placeholder="Message"/>
                   <br/>
                   <button className="btn btn-primary"> Submit </button>
             </form>
