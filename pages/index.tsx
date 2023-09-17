@@ -26,251 +26,146 @@ export default function Home() {
   }
   
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Mariano Lovo</title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>    
-        <link rel="icon" href="/Icon.png" />
-      </Head>
-      <main className={styles.main}>
-        <header className={styles.header}>
-        <nav className={styles.nav}>
-          <div className={styles.navbar}>
-            <h1 className={styles.title}><a href="#">ML</a></h1>
-            <input className={styles.checkbox} type="checkbox" name="" id="nav-check" />
-            <label htmlFor="nav-check" className={styles.burger}>
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
-            <div className={styles.navlinks}>
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href='#aboutme'>About me</a></li>
-                <li><a href="#contactme">Contact Me</a></li>
-              </ul>
-            </div>
+    <main className={styles.main}>
+    <section className={styles.Jumbotron}>
+    
+      <div className={styles.coverBanner}>
+        <div className="row py-lg-5 bg-transparent">
+          <div className="top-50 col-lg-6 col-md-8 mx-auto mx-lg-5 bg-transparent position-absolute start-0">
+            <h1 className="fw-bold text-white bg-transparent">Hi I&apos;m Mariano Lovo</h1>
+            <p className="lead fw-medium text-white bg-transparent">I am a web developer, I create freelance websites for commercial services, ecommerce platforms and media managers!</p>
+            <p className='bg-transparent'>
+              <a href="#" className="btn border text-white my-2">Request a site!</a>
+            </p>
           </div>
-        </nav>
-        </header>
-        <div className={styles.cover} id='home'>     
-            <div className={styles.text}>
-              <h1>Hi I&apos;m Mariano</h1>
-              <h1>&</h1>
-              <h1>I am a <div className={styles.words}>
-                <span>Software Engineer</span>
-                <span>Full Stack Developer</span>
-                <span>Software Engineer</span>
-                </div> 
-              </h1>
-              
-            </div>
-            <div className={styles.shape}>
-              <span></span> 
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-        </div>
-        <img className={styles.waves} src='/wave-150.svg' alt='waves'/>  
-        <img className={styles.waves2} src='/wave-150-u.svg' alt='waves 2'/>
-      <div className={styles.projects} >
-        <h1 id='projects'>Projects</h1>
-        <div className={styles.grid} >
-          <a href='https://wriality.com/' target='_blank' rel='noreferrer'>
-          <button className={styles.button}>
-            <h3>Personal Blog</h3>
-            <p>This will take you to Wriality, where you can access my personal blog, as well as other posts made by Chat-GPT3.
-            </p>
-          </button>
-          </a>
-          <button className={styles.button}>
-            <h3>More Coming Soon....</h3>
-            <p> As a devleoper I am always looking for more projects to pursue, from games to ecommerce, there is nothing I
-             won&apos;t pursue, stay tuned to see what&apos;s next.
-            </p>
-          </button>
         </div>
       </div>
-      <div className={styles.aboutMe} >
-        <div className={styles.mebox}>
-          <div className={styles.bio}>
-          <h1 id='aboutme'>About Me</h1>
-          <p>I am a self taught developer, born in Brisbane, Australia with a Latin-American Background. I have always loved software and have prided myself on being a problem solver. 
-            I study development everyday staying truly dedicated to it, whilst currently working as a collections agent. 
-            I truly am an asset to any team I am apart of, I look forward to your contact.
-          </p> 
-          </div>
-          
-          <div className={styles.skillbox}>
-            <span className={styles.skills}>
-              <h2>Front-End Skills</h2>
-                <p>Experience using: </p>
-              <div className={styles.listGrid}>
-                <p>
-                  <span>
-                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'/>
-                  </span>
-                  <br/>
-                  <span>
-                    JavaScript
-                  </span>
-                </p>
-                <p>
-                  <span>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /></span>
-                <br/>
-                <span>TypeScript</span>
-                </p>
-                <p>
-                  <span>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></span>
-                <br/>
-                <span>React.JS</span>
-                </p>
-                <p>
-                  <span>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" /></span>
-                <br/>
-                <span>Next.JS</span>
-                </p>
-              
-                <p>
-                  <span>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></span>
-                  <br/>
-                  <span>CSS</span>
-                </p>
-                <p>
-                  <span>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></span>
-                  <br/>
-                  <span>HTML</span>
-                </p>
-                <p>
-                  <span>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" /></span>
-                  <br/>
-                  <span>SASS</span>
-                </p>
-                  
-                
-              </div>
-            </span>
-            <span className={styles.skills}> 
-              <h2>Back-End Skills</h2>
-                <p>Experience using: </p>
-              <div className={styles.listGrid}>
-              <p>
-                  <span>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                  </span>
-                  <br/>
-                  <span className={styles.undertext}>
-                    Python
-                  </span>
-                </p>
-              <p>
-                  <span>    
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />
-                  </span>
-                  <br/>
-                  <span className={styles.undertext}>
-                    GraphQL
-                  </span>
-              </p>
-              </div>
-            </span>
-            <span className={styles.skills}>
-              <h2>Other Skills</h2>
-                <p>Experience with:</p>
-                <div className={styles.listGrid}>
-                  <p>
-                    <span>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" />
-                    </span>
-                    <br/>
-                    <span className={styles.undertext}>
-                    Premiere Pro
-                    </span>
-                  </p>
-                  <p>
-                    <span>      
-                      <img src="/github-svgrepo-com.svg" />
-                    </span>
-                    <br/>
-                    <span>
-                      Github
-                    </span>
-                  </p>
-                  <p>
-                    <span>      
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-                    </span>
-                    <br/>
-                    <span>
-                      Figma
-                    </span>
-                  </p>
-                  <p>
-                    <span>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-                    </span>
-                    <br/>
-                    <span>
-                      Bootstrap
-                    </span>
-                  </p>
+    </section>
+
+    <div className="album py-5 border-bottom" id='Project Cards'>
+      <div className="container-fluid">
+
+        <div  className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 p-4">
+
+          <a href="https://Wriality.com" target='_blank' rel="noreferrer">
+            <div className="col">
+              <div className="card shadow-sm p-1">
+                <Image src="/wriality.svg" className="bd-placeholder-img card-img-top bg-white border-bottom" width={100} height={225} alt="Wriality" />
+                <div className="card-body">
+                  <p className="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">Technology Used</p>
+                  <div className="d-flex justify-content-between align-items-center">
+                  <div className="row">
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width={50} height={50} alt='Bootstrap' className='col m-1'/>  
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width={50} height={50} alt='Next' className='col m-1' />
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width={50} height={50} alt='Javascript' className='col m-1'/>
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"  width={50} height={50} alt='HTML' className='col m-1'/>
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={50} height={50} alt='CSS' className='col m-1'/>
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width={50} height={50} alt='GraphQL' className='col m-1'/>
+                   
+                    </div>
+                  </div>
                 </div>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div className={styles.contactme} > 
-        <div className={styles.cgrid}>
-          <div className={styles.seg}>
-              <div className={styles.getstarted}>
-                <h2 id='contactme'>
-                  Lets Get Started!
-                </h2>
-                <img src='/AdobeStock.svg'/>
+              </div>
             </div>
-          </div>
-          <div className={styles.seg}>
-            <form className={styles.submitformcont}  method="post" onSubmit={sendEmail} id='emailform'>
-                  <label className={styles.fullnamelbl} htmlFor="name">Name:</label>
-                  <br/>
-                  <input className={styles.fullnamebtn} type="text" id="name" placeholder='Name'  name="name" />
+          </a>
+          
+          <a href="https://punchclean.com" target='_blank' rel="noreferrer">
+            <div className="col">
+              <div className="card shadow-sm p-1">
+                <Image src="/PunchClean 1.svg" className="bd-placeholder-img card-img-top border-bottom" width={100} height={225} alt="Punchclean Powerwashers Label"/>
+                <div className="card-body">
+                  <p className="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">Technology Used</p>
+                  <div className="d-flex justify-content-between align-items-center">
+                  <div className="row">
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width={50} height={50} alt='Bootstrap' className='col m-1'/>  
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width={50} height={50} alt='Next' className='col m-1' />
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width={50} height={50} alt='Javascript' className='col m-1'/>
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"  width={50} height={50} alt='HTML' className='col m-1'/>
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={50} height={50} alt='CSS' className='col m-1'/>
+                      <span className='col m-1'></span>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
 
-                  <br/>
-                  <br/>
+          <a href="https://www.runnersrecovers.com" target='_blank' rel="noreferrer">
+            <div className="col">
+              <div className="card shadow-sm p-1">
+                <Image src="/Runners-Recovers-Icon-2.svg" className=" card-img-top border-bottom" width={100} height={225} alt="Placeholder: Thumbnail" />
+                <div className="card-body">
+                  <p className="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">Technology Used</p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    
+                    <div className="row">
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width={50} height={50} alt='Bootstrap' className='col m-1'/>  
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width={50} height={50} alt='Next' className='col m-1' />
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width={50} height={50} alt='Javascript' className='col m-1'/>
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"  width={50} height={50} alt='HTML' className='col m-1'/>
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={50} height={50} alt='CSS' className='col m-1'/>
+                      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width={50} height={50} alt='GraphQL' className='col m-1'/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
 
-                  <label className={styles.emaillbl} htmlFor="mail">E-mail:</label>
-                  <br/>
-                  <input className={styles.emailbtn}type="email" id="mail" name="email" placeholder="Enter your Email" required/>
+    <div id="About Me" className='py-5 px-4 border-bottom'>
+      <div className=''>
+        <div className=" py-1 px-3 mx-3">
+            <h2 className=" fs-1 pb-2">About Me</h2>
+            <p className='fs-5'>Hello, I&aposm Mariano, a passionate software developer hailing from Brisbane, Australia with a Latin-American heritage. As a self-taught professional, I&aposve delved deep into the intricacies of software development, dedicating countless hours every day to mastering my craft. I never let a day go by without immersing myself in the world of development.<br/> <br/>
+                                
+                                This balance has not only honed my problem-solving skills but also cultivated a resilience and dedication that I bring to every project. My experiences have taught me to adapt, innovate, and deliver top-notch solutions even in challenging environments. <br/> <br/>
 
-                  <br/>
-                  <br/>
-                  <label className={styles.textlbl}htmlFor="msg">Message:</label>
-                  <br/>
-                  <textarea className={styles.textbtn} id="msg" name="message"  placeholder="Message"></textarea>
+                                I&aposm proud to be AWS Foundational Cloud Practitioner certified, showcasing my understanding and proficiency with cloud technologies, especially AWS services. It&aposs not just about certificates for me; it&aposs about the relentless pursuit of knowledge and the application of that knowledge to real-world challenges. <br/> <br/>
 
-                  <br/>
+                                Every team I&aposve been a part of has benefited from my commitment to excellence, collaborative spirit, and unwavering dedication. I believe in continuous learning and always strive to exceed both personal and professional qualifications. <br/> <br/>
 
-                  <button className={styles.submitbtn}> Submit </button>
-            </form>
+                                Whether it&aposs a small task or a large-scale project, I approach it with the same enthusiasm and precision. If you&aposre looking for someone who can deliver high-quality software solutions and is dedicated to exceeding expectations, I&aposd love to hear from you. <br /> <br/>
+                                
+                                Looking forward to collaborating and making a difference together!
+            </p> 
+            <a href="https://www.credly.com/badges/9480ff0a-0fc1-4c0b-8ffd-27d23453bb47/public_url" target="__blank">
+              <Image src="/AWS-Certified-Cloud-Practitioner_badge.png"  width={150} height={150} alt='AWS Cloud Practitioner' className='col m-1'/>
+            </a>
           </div>
         </div>
       </div>
-    </main>
-    <footer>
-    </footer>    
+
+    <div id='contact' className='row py-5 px-4'>
+      <h2 className='py-1 px-3 mx-3 fs-1'>Contact Me!</h2>
+      <Image src="/ContactStock.svg" width={100} height={450} alt='Contact Us' className='col w-100'/>
+      <div className="col">
+      <form className={styles.submitformcont}  method="post" onSubmit={sendEmail} id='emailform'>
+                  <label className="mb-1" htmlFor="name">Name:</label>
+                  <br/>
+                  <input className="form-control" type="text" id="name" placeholder='Name'  name="name" />
+                  <br/>
+                  <br/>
+                  <label className="mb-1" htmlFor="mail">E-mail: <a className="text-danger fw-bold">*</a></label>
+                  <br/>
+                  <input className="form-control" type="email" id="mail" name="email" placeholder="name@example.com" required/>
+                  <br/>
+                  <br/>
+                  <label className="mb-1" htmlFor="msg">Message:</label>
+                  <textarea className="form-control col-8"/>
+                  <br/>
+                  <button className="btn btn-primary"> Submit </button>
+            </form>
+      </div>
+      
     </div>
+
+    </main>
     )
   }
