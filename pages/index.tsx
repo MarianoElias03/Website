@@ -123,15 +123,15 @@ export default function Home() {
       <div className=''>
         <div className=" py-1 px-3 mx-3">
             <h2 className=" fs-1 pb-2">About Me</h2>
-            <p className='fs-5'>Hello, I&aposm Mariano, a passionate software developer hailing from Brisbane, Australia with a Latin-American heritage. As a self-taught professional, I&aposve delved deep into the intricacies of software development, dedicating countless hours every day to mastering my craft. I never let a day go by without immersing myself in the world of development.<br/> <br/>
+            <p className='fs-5'>Hello, I&apos;m Mariano, a passionate software developer hailing from Brisbane, Australia with a Latin-American heritage. As a self-taught professional, I&apos;ve delved deep into the intricacies of software development, dedicating countless hours every day to mastering my craft. I never let a day go by without immersing myself in the world of development.<br/> <br/>
                                 
                                 This balance has not only honed my problem-solving skills but also cultivated a resilience and dedication that I bring to every project. My experiences have taught me to adapt, innovate, and deliver top-notch solutions even in challenging environments. <br/> <br/>
 
-                                I&aposm proud to be AWS Foundational Cloud Practitioner certified, showcasing my understanding and proficiency with cloud technologies, especially AWS services. It&aposs not just about certificates for me; it&aposs about the relentless pursuit of knowledge and the application of that knowledge to real-world challenges. <br/> <br/>
+                                I&apos;m proud to be AWS Foundational Cloud Practitioner certified, showcasing my understanding and proficiency with cloud technologies, especially AWS services. It&apos;s not just about certificates for me; it&apos;s about the relentless pursuit of knowledge and the application of that knowledge to real-world challenges. <br/> <br/>
 
-                                Every team I&aposve been a part of has benefited from my commitment to excellence, collaborative spirit, and unwavering dedication. I believe in continuous learning and always strive to exceed both personal and professional qualifications. <br/> <br/>
+                                Every team I&apos;ve been a part of has benefited from my commitment to excellence, collaborative spirit, and unwavering dedication. I believe in continuous learning and always strive to exceed both personal and professional qualifications. <br/> <br/>
 
-                                Whether it&aposs a small task or a large-scale project, I approach it with the same enthusiasm and precision. If you&aposre looking for someone who can deliver high-quality software solutions and is dedicated to exceeding expectations, I&aposd love to hear from you. <br /> <br/>
+                                Whether it&apos;s a small task or a large-scale project, I approach it with the same enthusiasm and precision. If you&apos;re looking for someone who can deliver high-quality software solutions and is dedicated to exceeding expectations, I&apos;d love to hear from you. <br /> <br/>
                                 
                                 Looking forward to collaborating and making a difference together!
             </p> 
